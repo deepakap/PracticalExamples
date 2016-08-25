@@ -15,6 +15,7 @@ public class PopulateAttributes {
 	
 	
   public static void main(String args[]){
+	System.out.println("Inside main method ");
 	  DefineAttributes obj = new DefineAttributes();
 	  obj.generateValues();
 	  ArrayList<String> baseList = obj.list;
